@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your PC Build | SMARTBUILD</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <h1>Your PC Build</h1>
+        <p>SMARTBUILD recommendation summary</p>
+    </header>
+
+    <main>
+
+<section class="card">
+    <h2>Your Requirements</h2>
+
+    <p>Budget: ₹{{ "{:,}".format(budget) }}</p>
+    <p>Purpose: {{ purpose }}</p>
+
+    <h2>Recommended Components</h2>
+
+    {% if components %}
+        {% for component in components %}
+            <p>
+                <strong>{{ component.category }}:</strong>
+                {{ component.name }} —
+                ₹{{ "{:,}".format(component.price) }}
+            </p>
+        {% endfor %}
+
+        <hr>
+
+        <h3>Estimated Total: ₹{{ "{:,}".format(total) }}</h3>
+        <p>Remaining Budget: ₹{{ "{:,}".format(remaining) }}</p>
+    {% else %}
+        <p>No components fit the current category budgets.
+           Try a different budget or purpose.</p>
+    {% endif %}
+
+    <p><strong>Note:</strong> Sample catalog prices only.
+       Product availability, current prices and compatibility
+       have not been verified.</p>
+
+    <p><a href="/pc-builder">Change Requirements</a></p>
+    <p><a href="/">Back to Home</a></p>
+</section>
+
+
+    </main>
+</body>
+</html>

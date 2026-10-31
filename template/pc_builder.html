@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC Build Assistant | SMARTBUILD</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <h1>PC Build Assistant</h1>
+        <p>Build a PC that matches your budget and needs.</p>
+    </header>
+
+    <main>
+        <form action="/generate-build" method="POST">
+            <label for="budget">Your budget (₹)</label>
+            <br>
+            <input type="number" id="budget" name="budget"
+                   min="10000" step="1000"
+                   placeholder="e.g. 70000" required>
+
+            <br><br>
+
+            <label for="purpose">What will you use the PC for?</label>
+            <br>
+            <select id="purpose" name="purpose" required>
+                <option value="">Choose your purpose</option>
+                <option value="study">Study and everyday use</option>
+                <option value="gaming">Gaming</option>
+                <option value="editing">Video editing and VFX</option>
+                <option value="programming">Programming and development</option>
+                <option value="workstation">Professional workstation</option>
+            </select>
+
+            <br><br>
+
+            <button type="submit">Generate My Build</button>
+        </form>
+        <p><a href="/">← Back to Home</a></p>
+    </main>
+</body>
+</html>
