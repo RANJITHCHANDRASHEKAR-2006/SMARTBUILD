@@ -1,0 +1,167 @@
+# SMARTBUILD — Features of Both Modules
+
+## Module 1: PC Build Assistant
+
+### 1. Component Selection
+
+Users can select individual PC parts to create their own desktop computer. The system displays each part's name, specifications, and price.
+
+Examples:
+
+- Select Ryzen 7 processor, 32 GB RAM, and RTX 4060 GPU.
+- Select Intel i5 processor, 16 GB RAM, and a 1 TB SSD.
+
+### 2. Budget-Based Build
+
+Users enter their budget, and the system suggests a complete PC configuration within that amount. It balances component prices, performance, and compatibility.
+
+Examples:
+
+- Enter ₹60,000 to get a PC build within ₹60,000.
+- Enter ₹90,000 to get a gaming PC build.
+
+### 3. Purpose-Based Build
+
+Users choose what they want to use the PC for, and the system recommends suitable components. Different purposes receive different hardware recommendations.
+
+Examples:
+
+- Choose programming and college projects for a student PC.
+- Choose 4K video editing for a high-performance PC.
+
+### 4. Total Price Calculator
+
+The system automatically calculates the total price of all selected components. The total updates whenever users add, remove, or replace a component.
+
+Examples:
+
+- Components costing ₹20,000, ₹12,000, and ₹25,000 contribute ₹57,000 in total.
+- Replace a ₹20,000 GPU with a ₹25,000 GPU to increase the build price by ₹5,000.
+
+### 5. Build Summary
+
+The system displays all selected components, their specifications, individual prices, and the final cost in one place. Users can review the complete build before purchasing the parts.
+
+Examples:
+
+- View all components and the total price of a ₹75,000 gaming PC.
+- View the processor, RAM, storage, and cost of a ₹50,000 programming PC.
+
+### 6. Explain My Build
+
+The system explains why the selected components are suitable for the user's budget and purpose. It also highlights advantages, limitations, and possible compatibility problems.
+
+Examples:
+
+- Explain how Ryzen 5, 16 GB RAM, and an SSD support programming.
+- Explain how an RTX 4060 GPU helps with gaming and what limitations to consider.
+
+### 7. Save, Export and Share Builds
+
+Users can save their PC builds for later, export the build details as a PDF, and share builds through links if sharing is implemented. This helps them compare builds and discuss them with others.
+
+Examples:
+
+- Save a ₹60,000 student PC and an ₹85,000 gaming PC.
+- Export a ₹90,000 video-editing build as a PDF to share with a computer shop.
+
+## Module 2: Laptop Recommendation System
+
+### 1. Requirement Form
+
+Users enter their budget, purpose, preferred processor, RAM, storage, graphics, screen size, battery needs, and brand preferences. The system uses these details to find suitable laptops.
+
+Examples:
+
+- Enter ₹55,000, programming, 16 GB RAM, and a 512 GB SSD.
+- Enter ₹90,000, video editing, 32 GB RAM, and a dedicated GPU.
+
+### 2. Specification-Based Filtering
+
+Users filter laptops using specific specifications such as price, processor, RAM, SSD, graphics card, screen size, and brand. The system displays laptops that meet the selected filters.
+
+Examples:
+
+- Find laptops under ₹60,000 with an i5 or Ryzen 5 processor and 16 GB RAM.
+- Find laptops under ₹1,00,000 with 32 GB RAM, a 1 TB SSD, and an RTX GPU.
+
+### 3. Usage-Based Recommendation
+
+The system recommends laptops according to the user's intended work, such as programming, gaming, video editing, or office work. It prioritizes the specifications that matter most for that purpose.
+
+Examples:
+
+- Recommend a laptop for coding, MySQL, and college projects.
+- Recommend a laptop for Blender, Premiere Pro, and 3D rendering.
+
+### 4. Match Percentage and Ranking
+
+The system calculates how closely each laptop matches the user's requirements and assigns a match percentage. It ranks the laptops from the strongest match to weaker matches.
+
+Examples:
+
+- Laptop A gets a 92% match, Laptop B gets 85%, and Laptop C gets 76%.
+- A gaming laptop with the required GPU ranks above one without a dedicated GPU.
+
+### 5. Laptop Comparison
+
+Users can select two to four laptops and compare their specifications side by side. They can compare prices, processors, graphics, RAM, storage, displays, battery information, and weight.
+
+Examples:
+
+- Compare laptops priced at ₹55,000, ₹62,000, and ₹68,000.
+- Compare a lightweight laptop with integrated graphics against a gaming laptop with a dedicated GPU.
+
+### 6. Product Details
+
+Each laptop has a separate details page showing its name, exact model, price, processor, GPU, RAM, storage, display, battery information, weight, warranty, and image. Verified retailer or manufacturer links can also be included when available.
+
+Examples:
+
+- View a laptop's i5 processor, 16 GB RAM, 512 GB SSD, and ₹58,999 price.
+- Check a gaming laptop's exact RTX GPU, weight, warranty, and retailer link.
+
+### 7. Natural-Language Laptop Search
+
+Users describe the laptop they want in simple everyday language instead of selecting every filter manually. The system converts their description into requirements and finds matching laptops.
+
+Examples:
+
+- “I need a ₹60,000 laptop for BCA, coding, MySQL, and multitasking.”
+- “Suggest a gaming laptop under ₹95,000 with an RTX GPU and 1 TB storage.”
+
+### 8. Closest Alternative Finder
+
+If no laptop meets all the requirements, the system suggests the closest available options. It explains which requirements each alternative meets and what compromises the user must accept.
+
+Examples:
+
+- Suggest a laptop with 16 GB RAM when the requested 32 GB model is unavailable.
+- Suggest a lightweight laptop slightly above budget and a heavier option within budget.
+
+### 9. “Why This Laptop?” Explanation
+
+The system explains why a particular laptop is recommended based on the user's needs, budget, and intended use. It also highlights important advantages and limitations.
+
+Examples:
+
+- Explain why a laptop with 16 GB RAM and a 512 GB SSD suits programming.
+- Explain why a laptop with an RTX GPU suits gaming and video editing, but may need more RAM for demanding projects.
+
+### 10. Saved Laptops and Shortlists
+
+Users can save recommended laptops and revisit them later. They can remove unwanted options, view saved details, and compare their shortlisted laptops before deciding which one to buy.
+
+Examples:
+
+- Save three laptops priced at ₹52,000, ₹58,000, and ₹63,000.
+- Save two gaming laptops and one lightweight laptop, then remove the options that exceed the budget.
+
+Total features: 17
+
+- PC Build Assistant: 7 features
+- Laptop Recommendation System: 10 features
+
+Source: Your SMARTBUILD finalized project modules document.&#x20;
+
+Pasted text.txt
